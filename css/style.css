@@ -1,0 +1,198 @@
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    background: #ccc;
+}
+a, a:hover { 
+    text-decoration: none; 
+    color: inherit;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after { clear: both; }
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.container-header {
+    width: 1775px;
+    margin: 0 auto;
+}
+#header {
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.logo { float: left; }
+.nav { 
+    float: right; 
+    padding-top: 10px;
+}
+.nav li {
+    float: left;
+    margin-right: 50px;
+    list-style: none;
+}
+.nav a:hover {
+    color: #ccc;
+}
+.nav li:last-child {
+    margin-right: 0;
+}
+.nav a {
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+    font-size: 1.3em;
+}
+#home {
+    height: 930px;
+    padding-top: 330px;
+    text-align: center;
+    background: #333 url(../images/bg.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#home h1 {
+    font: 48px/68px 'Montserrat-Light', arial;
+    text-transform: uppercase;
+    color: #fff;
+}
+#home button {
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    color: #fff;
+    font: 28.87px 'Montserrat', sans-serif;
+    background: inherit;
+    padding: 30px 40px;
+    margin-top: 90px;
+    display: inline-block;
+}
+#home button:hover {
+    color: #ccc;
+    border-color: #ccc;
+    cursor: pointer;
+}
+
+/* Products */
+#products {
+    background: #f5f5f5;
+    text-align: center;
+}
+#products h2.title {
+    padding: 210px 0 0;
+}
+.image-slider-item {
+    float: left;
+    width: 355px;
+    height: 355px;
+    margin: 30px 10px;
+    vertical-align: middle;
+}
+.image-slider-item:first-child {
+    background: url(../images/product1.png) no-repeat center center;
+}
+.image-slider-item:nth-child(2) {
+    background: url(../images/product2.png) no-repeat center center;
+    width: 420px;
+    height: 415px;
+    margin-top: 0;
+}
+.image-slider-item:last-child {
+    background: url(../images/product3.png) no-repeat center center;
+}
+#switch-radio {
+    width: 400px;
+    margin: 75px auto 0;
+    padding-bottom: 130px;
+    position: relative;
+    text-align: center;
+}
+#switch-radio > input {
+    display: none;
+}
+#switch-radio > input + label {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 8px;
+    background: #ccc;
+    cursor: pointer;
+    z-index: 100;
+    margin-right: 15px;
+    transition: background 0.8s ease-out 0s
+}
+#switch-radio > input:checked + label,
+#switch-radio > input + label:hover {
+    background: #3498db;
+}
+
+/* Services */
+#service {
+    padding: 145px 0;
+    text-align: center;
+    background: #fff;
+}
+h2.title {
+    text-transform: uppercase;
+    font: 36px 'Montserrat-Light', sans-serif;
+    color: #999;
+    margin-bottom: 70px;
+}
+h5.title {
+    text-transform: uppercase;
+    font: 24px 'Montserrat-Light', sans-serif;
+    color: #999;
+    margin-bottom: 25px;
+}
+.services-item {
+    float: left;
+    width: 33%;
+    height: 360px;
+    padding: 170px 60px 0;
+}
+.services-item:hover {
+    transition: box-shadow 0.8s ease-out 0s;
+    -webkit-box-shadow: 0px 11px 91px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 91px -11px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 91px -11px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+.services-item > p.description {
+    font: 16px 'Montserrat-Light', sans-serif;
+    color: #999;
+    line-height: 1.7em;
+}
+.light {
+    background: url(../images/icons/icon-light.png) no-repeat center 20%;
+}
+.gps {
+    background: url(../images/icons/icon-gps.png) no-repeat center 20%;
+}
+.globe {
+    background: url(../images/icons/icon-globe.png) no-repeat center 20%;
+}
+.computer {
+    background: url(../images/icons/icon-computer.png) no-repeat center 20%;
+}
+.photo {
+    background: url(../images/icons/icon-photo.png) no-repeat center 20%;
+}
+.mouse {
+    background: url(../images/icons/icon-mouse.png) no-repeat center 20%;
+}
