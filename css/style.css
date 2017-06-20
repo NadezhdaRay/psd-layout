@@ -58,6 +58,8 @@ a, a:hover {
     color: #fff;
     font-size: 1.3em;
 }
+
+/* Home */
 #home {
     height: 930px;
     padding-top: 330px;
@@ -317,4 +319,85 @@ h5.title {
 #switch-radio-slider > input:checked + label,
 #switch-radio-slider > input + label:hover {
     background: #fff;
+}
+
+/* Contact us */
+#contact {
+    text-align: center;
+    background: #ccc url(../images/bg-contact-form.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#contact h2.title {
+    margin-bottom: 0;
+    padding: 80px 0 90px;
+}
+#contact form {
+    width: 550px;
+    margin: 0 auto;
+}
+#contact input,
+#contact textarea {
+    min-width: 550px;
+    border: 1px solid #d4d4d4;
+    font: 18px 'Montserrat-Light', sans-serif;
+    color: #d4d4d4;
+    display: inline-block;
+    padding: 35px 25px;
+    margin-bottom: 17px;
+}
+#contact textarea {
+    resize: none;
+    margin-bottom: 0;
+}
+#contact form a {
+    float: right;
+    text-transform: uppercase;
+    font: 24px 'Montserrat-Light', sans-serif;
+    color: #3498db;
+    padding: 30px 0 90px;
+}
+
+/* Navbar */
+#navbar {
+    height: 150px;
+    background: #fff;
+}
+#navbar .nav-down { 
+    float: left; 
+    padding: 60px 0 60px 95px;
+}
+#navbar .nav-down li {
+    float: left;
+    margin-right: 65px;
+    list-style: none;
+}
+#navbar .nav-down li:last-child {
+    margin-right: 0;
+}
+#navbar .nav-down a {
+    font: 1.5em 'Montserrat-Medium', sans-serif;
+    color: #cacaca;
+    transition: color 0.5s ease-out 0s
+}
+#navbar .social-icons {
+    padding: 60px 100px 60px 0;
+}
+#navbar .social-icons i {
+    color: #cacaca;
+    transition: color 0.5s ease-out 0s
+}
+#navbar .social-icons li {
+    float: right;
+    margin-left: 65px;
+    list-style: none;
+}
+#navbar .social-icons li:last-child {
+    margin-left: 0;
+}
+#navbar .nav-down a:hover,
+#navbar .social-icons i:hover {
+    color: #3498db;
 }
