@@ -352,6 +352,11 @@ h5.title {
     resize: none;
     margin-bottom: 0;
 }
+::-webkit-input-placeholder {color:#b0b0b0;}
+::-moz-placeholder          {color:#b0b0b0;}
+:-moz-placeholder           {color:#b0b0b0;}
+:-ms-input-placeholder      {color:#b0b0b0;}
+
 #contact form a {
     float: right;
     text-transform: uppercase;
