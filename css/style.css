@@ -79,6 +79,7 @@ a, a:hover {
     text-transform: uppercase;
     border: 2px solid #fff;
     color: #fff;
+    background: rgba(0,0,0,0);
     font: 28.87px 'Montserrat', sans-serif;
     background: inherit;
     padding: 30px 40px;
