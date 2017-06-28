@@ -1,0 +1,67 @@
+/* General */
+html, body {
+  height: 100%;
+  background: #ccc;
+}
+a, a:hover { 
+  text-decoration: none; 
+  color: inherit;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after { clear: both; }
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* Header */
+#header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  height: 900px;
+  padding-top: 20px;
+}
+#header div.logo {
+  float: left;
+  width: 90px;
+  height: 90px;
+  background: url(../images/icon-logo.png) no-repeat;
+}
+#header div.icon-menu {
+  float: right;
+  width: 40px;
+  height: 30px;
+  margin: 15px;
+  background: url(../images/icon-hamburger.png) no-repeat;
+}
+#header div.title {
+  margin-top: 188px;
+}
+#header h1 {
+  text-transform: uppercase;
+  font: 4.375em 'Monserrat', sans-serif;
+  margin-bottom: 80px;
+}
+#header p {
+  font: 1.25em/1.5em 'Lora-Regular', serif;
+  margin-bottom: 60px;
+}
+#header button {
+  color: #fff;
+  background: #fa694e;
+  padding: 20px 65px;
+  font: 1.25em 'Monserrat', sans-serif;
+  border: none;
+  border-radius: 10px;
+}
+#header button:visited,
+#header button:focus,
+#header button:active {
+  border: none;
+  outline: none;
+}
