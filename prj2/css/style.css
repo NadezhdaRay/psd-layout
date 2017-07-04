@@ -65,3 +65,37 @@ a, a:hover {
   border: none;
   outline: none;
 }
+
+/* Services */
+#services {
+  background-color: #fff;
+  color: #8a8a8a;
+  height: 485px;
+  text-align: center;
+}
+#services div.services-item {
+  /*border: 1px solid #ccc;*/
+  max-width: 32%;
+  width: 30%;
+  height: 350px;
+  float: left;
+  margin: 60px 1em 0;
+  padding: 180px 10px 0 10px;
+}
+#services h3.title {
+  font: 1.25em 'Monserrat', sans-serif;
+  color: #5b5b5b;
+  margin-bottom: 60px;
+}
+#services div.services-item:nth-child(1) {
+  background: url(../images/icon-hover.png) no-repeat center 20px;
+}
+#services div.services-item:nth-child(2) {
+  background: url(../images/icon-services.png) no-repeat center 20px;
+}
+#services div.services-item:nth-child(3) {
+  background: url(../images/icon-services2.png) no-repeat center 20px;
+}
+#services p.description {
+  font: 0.938em/1.5em 'Lora-Regular', serif;
+}
