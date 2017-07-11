@@ -2,3 +2,7 @@
     font-family: 'Lora-Regular';
     src: url('../fonts/Lora-Regular.ttf');
 }
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
